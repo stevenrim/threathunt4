@@ -1,4 +1,4 @@
-# Threat Hunt Report: Zero-Day Ransomware PwnCrypt Outbreak
+# Threat Hunt Report: Zero Day Ransomware PwnCrypt Outbreak
 ```
 ⚠️ Disclaimer: This repository and github site presents fictional threat hunting scenarios created for
 educational and portfolio purposes. Any similarities to real individuals, organizations, or events are purely
