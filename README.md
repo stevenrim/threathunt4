@@ -9,15 +9,13 @@ reflect or promote any actual security incidents or breache
 ```
 
 ## 📂 Overview
-On April 12, 2025, threat intelligence reports identified a new ransomware strain named PwnCrypt, which utilizes a PowerShell-based payload to encrypt files using AES-256. It specifically targets directories such as `C:\Users\Public\Desktop` and appends a `.pwncrypt` substring to encrypted files (e.g., `hello.txt` becomes `hello.pwncrypt.txt`).
-
-In response, the CISO initiated a proactive threat hunt to determine whether the ransomware had infected any systems and to assess its delivery mechanism or potential lateral movement.
+On April 12, 2025, threat intelligence reports identified a new ransomware strain named PwnCrypt, which utilizes a PowerShell-based payload to encrypt files using AES-256. It specifically targets directories such as `C:\Users\Public\Desktop` and appends a `.pwncrypt` substring to encrypted files (e.g., `hello.txt` becomes `hello.pwncrypt.txt`). In response, the CISO initiated a proactive threat hunt to determine whether the ransomware had infected any systems and to assess its delivery mechanism or potential lateral movement.
 
 ## 🔍 Hypothesis
 Due to the organization’s immature security posture—including limited endpoint protection and no formal user awareness training—it is plausible that `PwnCrypt` infiltrated the network.
 
 This hunt focused on identifying:
-- Files with .pwncrypt in their names.
+- Files with `.pwncrypt` in their names.
 - PowerShell processes that could have executed the ransomware.
 - Potential delivery methods, such as external script downloads or lateral movement patterns.
 
